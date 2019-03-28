@@ -16,6 +16,10 @@ export HOMEBREW_NO_ANALYTICS=1
 # Actually load Oh-My-Zsh
 source "${ZSH}/oh-my-zsh.sh"
 
+# SDK ANDROID
+export ANDROID_SDK=/Users/raphbook/Library/Android/sdk
+export PATH=/Users/raphbook/Library/Android/sdk/platform-tools:$PATH
+
 # Rails and Ruby uses the local `bin` folder to store binstubs.
 # So instead of running `bin/rails` like the doc says, just run `rails`
 export PATH="./bin:${PATH}:/usr/local/sbin"
